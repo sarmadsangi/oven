@@ -1,0 +1,27 @@
+{
+	"name": "Oven",
+	"description": "Baking your SPA into a crawlable HTML",
+	"authors": [
+		"Raman Shalupau <raman.shalupau@gmail.com>"
+	],
+	"version": "0.0.1",
+	"main": "app.js",
+	"dependencies": {
+		"requirejs": "",
+		"express": "",
+		"phantomjs": "",
+		"underscore": ""
+	},
+	"devDependencies": {
+		"nodemon": "*",
+		"node-inspector": "*"
+	},
+	"scripts": {
+		"run": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": "",
+	"license": "MIT",
+	"readmeFilename": "README.md",
+	"engine": "node 0.10.0"
+}
