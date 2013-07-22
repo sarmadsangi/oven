@@ -3,7 +3,7 @@ define([
 ], function (_) {
 	var config = {};
 
-	config.port = 8000;
+	config.port = 8888;
 
 
 	return config;
