@@ -8,11 +8,11 @@ requirejs.config({
 });
 
 
-requirejs(['config', 'express', 'oven'],
-function(config, express, oven) {
+requirejs(['config', 'express', 'http-proxy', 'oven'],
+function(config, express, httpProxy,  oven) {
 	var app = express();
 
-	app.get('/:url', oven.bake);
+	app.get('/', oven.bake);
 
 	app.listen(config.port);
 });

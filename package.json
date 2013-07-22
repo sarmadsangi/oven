@@ -9,8 +9,10 @@
 	"dependencies": {
 		"requirejs": "",
 		"express": "",
-		"phantomjs": "",
-		"underscore": ""
+		"zombie": "",
+		"underscore": "",
+		"http-proxy": "",
+		"node-cache": ""
 	},
 	"devDependencies": {
 		"nodemon": "*",
